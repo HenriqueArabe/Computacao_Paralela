@@ -17,8 +17,8 @@ int main() {
 
   // Multiplicação
   for (i = 0; i < 2000; i++) {
-      for (k = 0; k < 2000; k++) {
-          for (j = 0; j < 2000; j++) {
+      for (j = 0; j < 2000; j++) {
+          for (k = 0; k < 2000; k++) {
               C[i][j] += A[i][k] * B[k][j];
           }
       }
